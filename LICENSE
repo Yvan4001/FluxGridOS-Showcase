@@ -1,0 +1,84 @@
+FluxGridOS Proprietary License
+
+Copyright (c) 2025 SIVA GAMES (Yvan Simon). All Rights Reserved.
+
+INTELLECTUAL PROPERTY NOTICE:
+This software and all associated source code, documentation, designs, algorithms,
+and materials (collectively, the "Software") are the exclusive intellectual 
+property of Yvan Simon and are protected by copyright, trade secret, and other
+intellectual property laws.
+
+LIMITED LICENSE GRANT:
+Permission is hereby granted to view and study this Software solely for 
+educational and non-commercial purposes, subject to the following strict conditions:
+
+1. OWNERSHIP AND RIGHTS:
+   - Yvan Simon retains all ownership rights, title, and interest in the Software.
+   - This Software is proprietary and confidential intellectual property.
+   - No rights are transferred except those explicitly granted herein.
+   - All rights not expressly granted are reserved by the copyright holder.
+
+2. DISTRIBUTION PROHIBITION:
+   - The Software may ONLY be distributed through the official GitHub repository
+     at https://github.com/Yvan4001/FluxGridOS or channels explicitly authorized
+     in writing by Yvan Simon.
+   - Redistribution, mirroring, or hosting on any other platform is strictly
+     prohibited without prior written consent.
+   - Forking is permitted only for contribution purposes back to the official
+     repository.
+
+3. MODIFICATION AND DERIVATIVE WORKS:
+   - Modifications are permitted only for the purpose of contributing back to
+     the official repository.
+   - All derivative works remain the intellectual property of Yvan Simon.
+   - Contributors grant Yvan Simon perpetual, irrevocable rights to all
+     contributions submitted to the project.
+   - Independent derivative works or competing projects based on this Software
+     are expressly prohibited.
+
+4. COMMERCIAL USE PROHIBITION:
+   - Commercial use, including but not limited to sale, licensing, or
+     incorporation into commercial products, is strictly prohibited without
+     explicit written permission and licensing agreement from Yvan Simon.
+
+5. ATTRIBUTION REQUIREMENT:
+   - All copies, forks, or derivative works must prominently display this
+     copyright notice and license.
+   - Credit must be given to Yvan Simon as the original author and copyright holder.
+
+6. NO PUBLIC DOMAIN:
+   - This Software shall never enter the public domain.
+   - This license does not grant any open-source rights under OSI-approved licenses.
+
+7. CONFIDENTIALITY:
+   - Certain proprietary algorithms, implementations, and design decisions
+     constitute trade secrets and confidential information of Yvan Simon.
+
+8. TERMINATION:
+   - Any violation of this license automatically terminates all rights granted
+     herein.
+   - Yvan Simon reserves the right to pursue legal action for unauthorized use,
+     distribution, or infringement of intellectual property rights.
+
+DISCLAIMER OF WARRANTY:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NONINFRINGEMENT. IN NO EVENT SHALL
+YVAN SIMON BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+LIMITATION OF LIABILITY:
+IN NO EVENT SHALL YVAN SIMON BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+CONTACT:
+For licensing inquiries, permissions, or commercial use requests, contact:
+Yvan Simon via https://github.com/Yvan4001
+
+Last Updated: November 27, 2025
