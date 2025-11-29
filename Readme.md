@@ -108,37 +108,20 @@ Provides the graphical user interface and rendering capabilities.
 
 User-level applications, primarily games, that run on top of the OS and sofware layer.
 
-## Building
+## Download & Installation
 
-### Prerequisites
+Since FluxGridOS is currently closed-source/proprietary, you cannot build it from source without a specific license. However, you can try the latest builds!
 
--   Rust toolchain (nightly recommended for OS development features)
--   QEMU (for emulation and testing)
--   `cargo-binutils` for `objcopy` and related tools (or ensure `llvm-tools-preview` component is installed via `rustup component add llvm-tools-preview`)
--   A suitable bootloader setup (e.g., Limine, or if `bootimage` is used, it handles this)
+### How to run FluxGridOS:
 
-### Build Steps
-
-1.  Clone the repository:
+1.  **Download the ISO:** Go to the [Releases Page](../../releases) and download the latest `FluxGrid.iso`.
+2.  **Emulation (QEMU):**
     ```sh
-    git clone [https://github.com/Yvan4001/FluxGridOS.git](https://github.com/Yvan4001/FluxGridOS.git) # Updated name
-    cd FluxGridOS
+    qemu-system-x86_64 -cdrom FluxGrid.iso -m 512M
     ```
+3.  **Real Hardware:** Flash the ISO to a USB drive (using Rufus or Etcher) and boot from it (requires UEFI/Legacy support depending on version).
 
-2.  Build the kernel (ensure your `.cargo/config.toml` or target JSON specifies the correct linker and build options):
-    ```sh
-    cargo build --target x86_64-fluxGridOs.json # Or your custom target
-    ```
-
-3.  Create a bootable disk image:
-    The `build_iso.sh` (for Linux/macOS) or `build_iso.bat` (for Windows) script handles packaging the compiled kernel with a bootloader to create a bootable ISO image.
-    ```sh
-    ./build_iso.sh
-    ```
-    or
-    ```sh
-    ./build_iso.bat
-    ```
+*Note: As this is a Beta OS, running on a Virtual Machine is highly recommended.*
 
 ## Current Status & Roadmap
 
@@ -160,15 +143,14 @@ FluxGridOS is in active development.
 * **Comprehensive GUI:** Rich widget set, window manager, theming.
 * **Gaming Profiles:** Implementation of profile switching and settings.
 
-## Contributing
+## Feedback & Issues
 
-Contributions are welcome! Please check the issues list for tasks that need help, or suggest new features through the issue tracker.
+While the source code is proprietary, community feedback is invaluable!
+If you encounter a bug or have a feature request for the gaming optimization layer:
 
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/YourAmazingFeature` or `bugfix/issue-X-short_description`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/YourAmazingFeature`).
-5.  Open a Pull Request.
+1.  Open an **Issue** in this repository.
+2.  Describe the bug or suggestion clearly.
+3.  If reporting a crash, please attach a screenshot or the serial logs if available.
 
 ## License
 
